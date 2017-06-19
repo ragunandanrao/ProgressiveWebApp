@@ -1,0 +1,17 @@
+<!doctype html>
+<title> Activity launcher></title>
+<!-- tinyurl.com/fluentpwa -->
+<link rel="stylesheet" href="style.css">
+<script src="launcher.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+    //To register a service worker. 
+    navigator.serviceWorker.register("serviceworker.js", {scope: '/'}) //Defining the scope on the doamin. If we gave /2017 then only the folder 2017 would be accessible under the SW
+        .then(function(registration) {
+    // Worker is registered   
+    }).catch(function(error) {
+    // There was an error registering the SW 
+    });     
+}
+
+</script>
