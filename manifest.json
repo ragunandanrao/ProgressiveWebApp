@@ -1,0 +1,8 @@
+{
+  "name": "ActivityLauncher",
+  "short_name": "Activity",
+  "description": "The application has list of activities for the user",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#af7491"
+}
